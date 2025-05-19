@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarnaúbaNet - Internet Fibra Óptica e Via Rádio em Campo Maior</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="w-16 h-16 mr-3">
+                    <div class="bg-white rounded-full p-1 shadow-md">
+                        <div class="bg-gradient-to-r from-green-500 to-red-500 rounded-full p-1">
+                            <div class="bg-white rounded-full w-full h-full flex items-center justify-center">
+                                <img src="img/image-removebg-preview.png" alt="CarnaúbaNet Logo" class="w-12 h-12">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold logo-text">CarnaúbaNet</h1>
+                    <p class="text-xs text-gray-600">INTERNET FÁCIL - FIBRA ÓPTICA E VIA RÁDIO</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link active text-gray-800 font-medium">Início</a>
+                <a href="#planos" class="nav-link text-gray-600 hover:text-gray-800 font-medium">Planos</a>
+                <a href="#cobertura" class="nav-link text-gray-600 hover:text-gray-800 font-medium">Cobertura</a>
+                <a href="#sobre" class="nav-link text-gray-600 hover:text-gray-800 font-medium">Sobre Nós</a>
+                <a href="#contato" class="nav-link text-gray-600 hover:text-gray-800 font-medium">Contato</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-gray-800 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4 shadow-lg">
+            <div class="flex flex-col space-y-4">
+                <a href="#home" class="text-gray-800 font-medium">Início</a>
+                <a href="#planos" class="text-gray-600 hover:text-gray-800 font-medium">Planos</a>
+                <a href="#cobertura" class="text-gray-600 hover:text-gray-800 font-medium">Cobertura</a>
+                <a href="#sobre" class="text-gray-600 hover:text-gray-800 font-medium">Sobre Nós</a>
+                <a href="#contato" class="text-gray-600 hover:text-gray-800 font-medium">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-white py-20 md:py-32">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Conecte-se ao Futuro com a Internet de Alta Velocidade
+                    da CarnaúbaNet!</h1>
+                <p class="text-xl mb-8">Internet fibra óptica e via rádio com planos acessíveis e suporte local em Campo
+                    Maior.</p>
+                <a href="#planos"
+                    class="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 inline-block">
+                    Confira Nossos Planos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Sua Conexão com o Mundo</h2>
+                <p class="text-gray-600">A CarnaúbaNet é um provedor local comprometido com a qualidade da conexão e a
+                    satisfação dos clientes em Campo Maior. Utilizamos tecnologias de fibra óptica e rádio para oferecer
+                    a melhor experiência de internet para sua casa ou empresa.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-green-500 mb-4">
+                        <i class="fas fa-bolt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Ultravelocidade</h3>
+                    <p class="text-gray-600">Navegue sem interrupções com nossa tecnologia de ponta e conexões estáveis.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-green-500 mb-4">
+                        <i class="fas fa-map-marked-alt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Cobertura Abrangente</h3>
+                    <p class="text-gray-600">Atendemos diversos bairros de Campo Maior com nossa rede expansiva.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-green-500 mb-4">
+                        <i class="fas fa-headset text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Suporte Local</h3>
+                    <p class="text-gray-600">Equipe técnica especializada e atendimento personalizado para resolver seus
+                        problemas rapidamente.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-green-500 mb-4">
+                        <i class="fas fa-network-wired text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Tecnologia de Ponta</h3>
+                    <p class="text-gray-600">Fibra óptica e rádio de alta qualidade para atender todas as suas
+                        necessidades de conexão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Por que escolher a CarnaúbaNet?</h2>
+
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <p class="text-gray-600 mb-4">Na CarnaúbaNet, acreditamos que uma boa conexão de internet é
+                        essencial para o dia a dia das pessoas. Por isso, investimos constantemente em nossa
+                        infraestrutura e no treinamento de nossa equipe para oferecer o melhor serviço possível aos
+                        nossos clientes em Campo Maior.</p>
+
+                    <p class="text-gray-600 mb-6">Nossa equipe local está sempre pronta para ajudar, seja com dúvidas
+                        sobre planos, instalação ou suporte técnico. Valorizamos cada cliente e nos esforçamos para
+                        construir relacionamentos duradouros baseados em confiança e qualidade de serviço.</p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <span
+                            class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Confiabilidade</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Atendimento
+                            Personalizado</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Compromisso
+                            com a Comunidade</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Tecnologia
+                            Avançada</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">O que nossos clientes dizem</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-green-500 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Maria Silva</h4>
+                            <p class="text-sm text-gray-500">Moradora do Centro</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Desde que migrei para a CarnaúbaNet, minha internet nunca mais
+                        travou! O suporte é sempre rápido e atencioso. Recomendo para todos os meus amigos e
+                        familiares."</p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-green-500 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">José Oliveira</h4>
+                            <p class="text-sm text-gray-500">Comerciante</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Como dono de uma pequena loja, preciso de internet estável para meu
+                        caixa e vendas online. A CarnaúbaNet me ofereceu um plano empresarial que atende perfeitamente
+                        às minhas necessidades."</p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-green-500 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Ana Paula</h4>
+                            <p class="text-sm text-gray-500">Estudante Universitária</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Precisava de uma internet rápida para minhas aulas online e
+                        trabalhos da faculdade. A CarnaúbaNet me surpreendeu com a velocidade e estabilidade da conexão,
+                        além do preço justo."</p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="planos" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Planos de Internet CarnaúbaNet</h2>
+            <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">Encontre o plano ideal para suas necessidades.
+                Oferecemos opções via fibra óptica e rádio com diferentes velocidades e benefícios.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Plano 1 -->
+                <div class="plan-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="text-center mb-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Conexão Essencial</h3>
+                        <p class="text-gray-600">Ideal para navegação básica</p>
+                    </div>
+                    <div class="text-center mb-6">
+                        <span class="text-4xl font-bold text-green-500">R$ 79,90</span>
+                        <span class="text-gray-500 block">por mês</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Fibra Óptica: 100 Mbps download / 50 Mbps upload</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Wi-Fi grátis</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Suporte 24/7</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button
+                            class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-6 rounded-full transition duration-300 w-full">
+                            Assine Já
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Plano 2 (Destaque) -->
+                <div
+                    class="plan-card bg-white p-6 rounded-lg shadow-lg border-2 border-green-500 transform scale-105 transition duration-300">
+                    <div class="text-center mb-6">
+                        <div class="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">
+                            MAIS POPULAR</div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Turbo Fibra</h3>
+                        <p class="text-gray-600">Perfeito para streaming e jogos</p>
+                    </div>
+                    <div class="text-center mb-6">
+                        <span class="text-4xl font-bold text-green-500">R$ 119,90</span>
+                        <span class="text-gray-500 block">por mês</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Fibra Óptica: 300 Mbps download / 150 Mbps upload</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Wi-Fi grátis</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Suporte prioritário 24/7</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Instalação facilitada</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button
+                            class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-6 rounded-full transition duration-300 w-full">
+                            Assine Já
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Plano 3 -->
+                <div class="plan-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="text-center mb-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Super Rádio</h3>
+                        <p class="text-gray-600">Para áreas sem fibra óptica</p>
+                    </div>
+                    <div class="text-center mb-6">
+                        <span class="text-4xl font-bold text-green-500">R$ 99,90</span>
+                        <span class="text-gray-500 block">por mês</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Via Rádio: 50 Mbps download / 20 Mbps upload</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Wi-Fi grátis</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Suporte técnico local</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button
+                            class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-6 rounded-full transition duration-300 w-full">
+                            Assine Já
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-white p-6 rounded-lg shadow-sm max-w-3xl mx-auto">
+                <h3 class="text-lg font-semibold text-gray-800 mb-4">Observações Importantes:</h3>
+                <ul class="text-gray-600 space-y-2">
+                    <li class="flex items-start">
+                        <i class="fas fa-info-circle text-green-500 mt-1 mr-2"></i>
+                        <span>Taxa de instalação: R$ 100,00 (isento para planos com fidelidade de 12 meses)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-info-circle text-green-500 mt-1 mr-2"></i>
+                        <span>Fidelidade de 12 meses para planos com instalação gratuita</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-info-circle text-green-500 mt-1 mr-2"></i>
+                        <span>Valores sujeitos a alteração sem aviso prévio</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-info-circle text-green-500 mt-1 mr-2"></i>
+                        <span>Velocidades podem variar de acordo com a infraestrutura local</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section id="cobertura" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Área de Cobertura CarnaúbaNet em Campo Maior
+            </h2>
+            <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">Verifique se sua região está dentro da nossa
+                área de atendimento.</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Bairros Atendidos</h3>
+                    <p class="text-gray-600 mb-6">Atualmente, nossa rede de fibra óptica e rádio atende os seguintes
+                        bairros de Campo Maior:</p>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span class="text-gray-700">Centro</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span class="text-gray-700">Vila Operária</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span class="text-gray-700">Boa Vista</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span class="text-gray-700">São João</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span class="text-gray-700">Nova Brasília</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span class="text-gray-700">Jardim Eldorado</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span class="text-gray-700">Vila São Francisco</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span class="text-gray-700">Conjunto Habitacional</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 bg-green-50 p-4 rounded-lg">
+                        <h4 class="font-semibold text-green-800 mb-2">Estamos em expansão!</h4>
+                        <p class="text-green-700">Se seu bairro ainda não está na lista, preencha o formulário ao lado
+                            para verificar a possibilidade de atendimento ou cadastre-se para ser avisado quando
+                            chegarmos na sua região.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Verifique a cobertura em seu endereço</h3>
+
+                        <form class="space-y-4">
+                            <div>
+                                <label for="nome" class="block text-gray-700 mb-1">Nome</label>
+                                <input type="text" id="nome"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+
+                            <div>
+                                <label for="telefone" class="block text-gray-700 mb-1">Telefone</label>
+                                <input type="tel" id="telefone"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+
+                            <div>
+                                <label for="endereco" class="block text-gray-700 mb-1">Endereço Completo</label>
+                                <textarea id="endereco" rows="3"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit"
+                                    class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-6 rounded-full transition duration-300 w-full">
+                                    Verificar Cobertura
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="mt-8">
+                        <div class="bg-gray-100 rounded-lg overflow-hidden" style="height: 300px;">
+                            <!-- Mapa placeholder - seria substituído por um Google Maps embed -->
+                            <div class="h-full flex items-center justify-center bg-gray-200">
+                                <div class="text-center">
+                                    <i class="fas fa-map-marked-alt text-4xl text-gray-400 mb-2"></i>
+                                    <p class="text-gray-500">Mapa de Cobertura Interativo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-500 mt-2 text-center">Mapa ilustrativo da área de cobertura em Campo
+                            Maior</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="sobre" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Sobre a CarnaúbaNet</h2>
+
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Nossa História</h3>
+                    <p class="text-gray-600 mb-6">A CarnaúbaNet nasceu em 2015 com o objetivo de levar internet de
+                        qualidade para Campo Maior e região. Fundada por empreendedores locais, nossa empresa cresceu
+                        com a comunidade, entendendo suas necessidades e oferecendo soluções personalizadas para cada
+                        cliente.</p>
+
+                    <p class="text-gray-600 mb-8">Começamos com uma pequena rede via rádio e, à medida que a demanda
+                        crescia, investimos em infraestrutura de fibra óptica para oferecer a melhor experiência de
+                        conexão para nossos clientes. Hoje, somos uma das principais provedoras de internet da região,
+                        orgulhosos de nosso atendimento personalizado e suporte técnico eficiente.</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-green-500 mb-2">8+</div>
+                            <div class="text-gray-600">Anos no mercado</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-green-500 mb-2">5k+</div>
+                            <div class="text-gray-600">Clientes satisfeitos</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-green-500 mb-2">15+</div>
+                            <div class="text-gray-600">Bairros atendidos</div>
+                        </div>
+                    </div>
+
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Missão</h3>
+                    <p class="text-gray-600 mb-6 bg-green-50 p-4 rounded-lg">"Proporcionar acesso à internet de alta
+                        qualidade para todos os moradores de Campo Maior, impulsionando o desenvolvimento e a conexão da
+                        comunidade."</p>
+
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Visão</h3>
+                    <p class="text-gray-600 mb-6 bg-green-50 p-4 rounded-lg">"Ser o provedor de internet líder em Campo
+                        Maior, reconhecido pela excelência em serviços, tecnologia e atendimento ao cliente."</p>
+
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Nossos Valores</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-green-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-800 mb-2">Qualidade</h4>
+                            <p class="text-gray-600">Buscamos sempre oferecer o melhor serviço, com tecnologia
+                                atualizada e infraestrutura robusta.</p>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-800 mb-2">Compromisso com o cliente</h4>
+                            <p class="text-gray-600">Nossos clientes são nossa prioridade, e trabalhamos para superar
+                                suas expectativas.</p>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-800 mb-2">Inovação</h4>
+                            <p class="text-gray-600">Estamos sempre em busca de novas tecnologias e soluções para
+                                melhorar nossos serviços.</p>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-green-800 mb-2">Confiabilidade</h4>
+                            <p class="text-gray-600">Nossos clientes podem contar conosco para uma conexão estável e
+                                suporte eficiente.</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Nossa Equipe</h3>
+                        <p class="text-gray-600">Contamos com uma equipe de profissionais qualificados e comprometidos,
+                            desde técnicos de instalação até especialistas em redes e atendimento ao cliente. Todos
+                            compartilhamos o mesmo objetivo: proporcionar a melhor experiência de internet para você e
+                            sua família.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Entre em Contato com a CarnaúbaNet</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-sm mb-8">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Informações de Contato</h3>
+
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="text-green-500 mt-1 mr-4">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Endereço</h4>
+                                    <p class="text-gray-600">R. Antonino Freire, 329 - Centro, Campo Maior - PI,
+                                        64280-000, Brasil</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="text-green-500 mt-1 mr-4">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Telefone</h4>
+                                    <p class="text-gray-600">+55 86 98160-4402</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="text-green-500 mt-1 mr-4">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">E-mail</h4>
+                                    <p class="text-gray-600">contato@carnaubanet.com.br</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="text-green-500 mt-1 mr-4">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Horário de Funcionamento</h4>
+                                    <p class="text-gray-600">Segunda a sexta-feira: 08:00-12:00, 14:00-17:00</p>
+                                    <p class="text-gray-600">Sábado: 08:00-12:00</p>
+                                    <p class="text-gray-600">Domingo: Fechado</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Redes Sociais</h3>
+                        <p class="text-gray-600 mb-4">Siga-nos nas redes sociais para ficar por dentro de novidades,
+                            promoções e dicas.</p>
+
+                        <div class="flex space-x-4">
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition duration-300">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-pink-600 text-white flex items-center justify-center hover:bg-pink-700 transition duration-300">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-blue-400 text-white flex items-center justify-center hover:bg-blue-500 transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center hover:bg-red-700 transition duration-300">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Envie uma Mensagem</h3>
+
+                        <form class="space-y-4">
+                            <div>
+                                <label for="contact-name" class="block text-gray-700 mb-1">Nome</label>
+                                <input type="text" id="contact-name"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+
+                            <div>
+                                <label for="contact-email" class="block text-gray-700 mb-1">E-mail</label>
+                                <input type="email" id="contact-email"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+
+                            <div>
+                                <label for="contact-phone" class="block text-gray-700 mb-1">Telefone</label>
+                                <input type="tel" id="contact-phone"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+
+                            <div>
+                                <label for="contact-subject" class="block text-gray-700 mb-1">Assunto</label>
+                                <select id="contact-subject"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="planos">Dúvidas sobre planos</option>
+                                    <option value="cobertura">Consulta de cobertura</option>
+                                    <option value="suporte">Suporte técnico</option>
+                                    <option value="outro">Outro assunto</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="contact-message" class="block text-gray-700 mb-1">Mensagem</label>
+                                <textarea id="contact-message" rows="4"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit"
+                                    class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-6 rounded-full transition duration-300 w-full">
+                                    Enviar Mensagem
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="mt-8">
+                        <div class="bg-gray-100 rounded-lg overflow-hidden" style="height: 300px;">
+                            <!-- Mapa placeholder - seria substituído por um Google Maps embed -->
+                            <div class="h-full flex items-center justify-center bg-gray-200">
+                                <div class="text-center">
+                                    <i class="fas fa-map-marker-alt text-4xl text-gray-400 mb-2"></i>
+                                    <p class="text-gray-600">R. Antonino Freire, 329 - Centro</p>
+                                    <p class="text-gray-600">Campo Maior - PI, 64280-000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-500 mt-2 text-center">Localização da CarnaúbaNet em Campo Maior</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Suporte Técnico CarnaúbaNet</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Perguntas Frequentes (FAQ)</h3>
+
+                        <div class="space-y-4">
+                            <div class="border-b border-gray-200 pb-4">
+                                <button
+                                    class="faq-question flex justify-between items-center w-full text-left font-medium text-gray-800">
+                                    <span>Como contrato um plano da CarnaúbaNet?</span>
+                                    <i class="fas fa-chevron-down text-green-500 transition-transform duration-300"></i>
+                                </button>
+                                <div class="faq-answer mt-2 text-gray-600 hidden">
+                                    Você pode entrar em contato conosco pelo telefone (86) 98160-4402, pelo nosso site
+                                    ou visitar nossa loja física na R. Antonino Freire, 329. Nossa equipe terá prazer em
+                                    ajudar você a escolher o melhor plano para suas necessidades.
+                                </div>
+                            </div>
+
+                            <div class="border-b border-gray-200 pb-4">
+                                <button
+                                    class="faq-question flex justify-between items-center w-full text-left font-medium text-gray-800">
+                                    <span>Quanto tempo demora a instalação?</span>
+                                    <i class="fas fa-chevron-down text-green-500 transition-transform duration-300"></i>
+                                </button>
+                                <div class="faq-answer mt-2 text-gray-600 hidden">
+                                    O prazo médio para instalação é de 3 a 5 dias úteis após a confirmação do contrato.
+                                    Em algumas áreas com alta demanda, esse prazo pode ser um pouco maior. Entre em
+                                    contato para verificar o prazo exato para seu endereço.
+                                </div>
+                            </div>
+
+                            <div class="border-b border-gray-200 pb-4">
+                                <button
+                                    class="faq-question flex justify-between items-center w-full text-left font-medium text-gray-800">
+                                    <span>O que fazer se minha internet cair?</span>
+                                    <i class="fas fa-chevron-down text-green-500 transition-transform duration-300"></i>
+                                </button>
+                                <div class="faq-answer mt-2 text-gray-600 hidden">
+                                    Primeiro, verifique se o problema não está no seu roteador ou dispositivo. Reinicie
+                                    o roteador e espere alguns minutos. Se o problema persistir, entre em contato com
+                                    nosso suporte técnico pelo telefone (86) 98160-4402 ou pelo WhatsApp para que
+                                    possamos verificar remotamente ou agendar uma visita técnica se necessário.
+                                </div>
+                            </div>
+
+                            <div class="border-b border-gray-200 pb-4">
+                                <button
+                                    class="faq-question flex justify-between items-center w-full text-left font-medium text-gray-800">
+                                    <span>Como faço para alterar meu plano?</span>
+                                    <i class="fas fa-chevron-down text-green-500 transition-transform duration-300"></i>
+                                </button>
+                                <div class="faq-answer mt-2 text-gray-600 hidden">
+                                    Você pode solicitar a alteração de plano entrando em contato com nosso atendimento
+                                    ao cliente. Verificaremos a disponibilidade na sua região e informaremos sobre
+                                    eventuais mudanças no valor e na velocidade. Algumas alterações podem exigir ajustes
+                                    técnicos em sua conexão.
+                                </div>
+                            </div>
+
+                            <div class="border-b border-gray-200 pb-4">
+                                <button
+                                    class="faq-question flex justify-between items-center w-full text-left font-medium text-gray-800">
+                                    <span>Quais são as formas de pagamento disponíveis?</span>
+                                    <i class="fas fa-chevron-down text-green-500 transition-transform duration-300"></i>
+                                </button>
+                                <div class="faq-answer mt-2 text-gray-600 hidden">
+                                    Aceitamos pagamento por boleto bancário, cartão de crédito (até 12x), débito
+                                    automático e PIX. Você pode gerenciar seus pagamentos através do nosso portal do
+                                    cliente ou entrar em contato com nosso atendimento para mais informações.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm mb-8">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Canais de Suporte</h3>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center bg-gray-50 p-4 rounded-lg">
+                                <div class="text-green-500 mr-4">
+                                    <i class="fas fa-phone-alt text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Telefone</h4>
+                                    <p class="text-gray-600">(86) 98160-4402</p>
+                                    <p class="text-sm text-gray-500">Segunda a sexta: 8h-12h e 14h-17h | Sábado: 8h-12h
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center bg-gray-50 p-4 rounded-lg">
+                                <div class="text-green-500 mr-4">
+                                    <i class="fas fa-envelope text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">E-mail</h4>
+                                    <p class="text-gray-600">suporte@carnaubanet.com.br</p>
+                                    <p class="text-sm text-gray-500">Resposta em até 24 horas úteis</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center bg-gray-50 p-4 rounded-lg">
+                                <div class="text-green-500 mr-4">
+                                    <i class="fab fa-whatsapp text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">WhatsApp</h4>
+                                    <p class="text-gray-600">(86) 98160-4402</p>
+                                    <p class="text-sm text-gray-500">Atendimento rápido por mensagem</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center bg-gray-50 p-4 rounded-lg">
+                                <div class="text-green-500 mr-4">
+                                    <i class="fas fa-user-headset text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-800">Atendimento Presencial</h4>
+                                    <p class="text-gray-600">R. Antonino Freire, 329 - Centro</p>
+                                    <p class="text-sm text-gray-500">Segunda a sexta: 8h-12h e 14h-17h | Sábado: 8h-12h
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Dicas e Tutoriais</h3>
+
+                        <div class="space-y-3">
+                            <a href="#" class="flex items-center text-gray-700 hover:text-green-600 group">
+                                <i class="fas fa-wifi text-green-500 mr-3 group-hover:text-green-600"></i>
+                                <span>Como melhorar o sinal do Wi-Fi em sua casa</span>
+                            </a>
+
+                            <a href="#" class="flex items-center text-gray-700 hover:text-green-600 group">
+                                <i class="fas fa-cog text-green-500 mr-3 group-hover:text-green-600"></i>
+                                <span>Configuração básica do roteador</span>
+                            </a>
+
+                            <a href="#" class="flex items-center text-gray-700 hover:text-green-600 group">
+                                <i class="fas fa-shield-alt text-green-500 mr-3 group-hover:text-green-600"></i>
+                                <span>Dicas de segurança na internet</span>
+                            </a>
+
+                            <a href="#" class="flex items-center text-gray-700 hover:text-green-600 group">
+                                <i class="fas fa-tachometer-alt text-green-500 mr-3 group-hover:text-green-600"></i>
+                                <span>Teste sua velocidade de internet</span>
+                            </a>
+
+                            <a href="#" class="flex items-center text-gray-700 hover:text-green-600 group">
+                                <i class="fas fa-question-circle text-green-500 mr-3 group-hover:text-green-600"></i>
+                                <span>Problemas comuns e soluções rápidas</span>
+                            </a>
+                        </div>
+
+                        <div class="mt-6">
+                            <a href="#" class="text-green-600 font-medium flex items-center">
+                                Ver todos os tutoriais
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-gray-50 p-8 rounded-lg shadow-sm">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Política de Privacidade</h2>
+
+                <div class="text-gray-600 space-y-6">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">1. Coleta de Informações</h3>
+                        <p>A CarnaúbaNet coleta informações pessoais quando você utiliza nossos serviços, acessa nosso
+                            site ou entra em contato conosco. Essas informações podem incluir nome, endereço, telefone,
+                            e-mail, dados de pagamento e informações técnicas sobre seu uso de nossos serviços.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">2. Uso das Informações</h3>
+                        <p>Utilizamos suas informações para fornecer e melhorar nossos serviços, processar pagamentos,
+                            responder a solicitações de suporte, enviar comunicações importantes e personalizar sua
+                            experiência. Também podemos usar dados agregados para análise e melhoria de nossos serviços.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">3. Compartilhamento de Dados</h3>
+                        <p>Não vendemos ou alugamos suas informações pessoais a terceiros. Podemos compartilhar dados
+                            com parceiros e fornecedores quando necessário para prestação de serviços, sempre com
+                            contratos que protejam sua privacidade. Também podemos divulgar informações quando exigido
+                            por lei.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">4. Cookies e Tecnologias Similares</h3>
+                        <p>Nosso site utiliza cookies para melhorar sua experiência de navegação, lembrar preferências e
+                            analisar o tráfego. Você pode configurar seu navegador para recusar cookies, mas isso pode
+                            afetar a funcionalidade de algumas partes do site.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">5. Segurança de Dados</h3>
+                        <p>Implementamos medidas técnicas e organizacionais para proteger suas informações contra acesso
+                            não autorizado, alteração, divulgação ou destruição. No entanto, nenhum método de
+                            transmissão ou armazenamento eletrônico é 100% seguro, e não podemos garantir segurança
+                            absoluta.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">6. Seus Direitos</h3>
+                        <p>Você tem direito a acessar, corrigir ou excluir suas informações pessoais, bem como opor-se
+                            ou limitar certos processamentos de dados. Para exercer esses direitos ou esclarecer dúvidas
+                            sobre nossa política de privacidade, entre em contato conosco.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">7. Alterações na Política</h3>
+                        <p>Esta política pode ser atualizada periodicamente. Publicaremos quaisquer alterações em nosso
+                            site e, para mudanças significativas, forneceremos um aviso mais proeminente (incluindo,
+                            para certos serviços, notificação por e-mail).</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">8. Contato</h3>
+                        <p>Para questões sobre esta política ou sobre suas informações pessoais, entre em contato
+                            conosco pelo e-mail privacidade@carnaubanet.com.br ou pelo telefone (86) 98160-4402.</p>
+                    </div>
+                </div>
+
+                <div class="mt-8 border-t border-gray-200 pt-6">
+                    <p class="text-sm text-gray-500">Última atualização: 01/06/2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 mr-3">
+                            <div class="bg-white rounded-full p-1 shadow-md">
+                                <div class="bg-gradient-to-r from-green-500 to-red-500 rounded-full p-1">
+                                    <div class="bg-white rounded-full w-full h-full flex items-center justify-center">
+                                        <i
+                                            class="fas fa-wifi text-xl text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-red-500"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold logo-text">CarnaúbaNet</h1>
+                            <p class="text-xs text-gray-300">INTERNET FÁCIL - FIBRA ÓPTICA E VIA RÁDIO</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">Provedor de internet de alta qualidade em Campo Maior, conectando você
+                        ao que há de melhor no mundo digital.</p>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="w-8 h-8 rounded-full bg-gray-700 hover:bg-gray-600 flex items-center justify-center transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="w-8 h-8 rounded-full bg-gray-700 hover:bg-gray-600 flex items-center justify-center transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="w-8 h-8 rounded-full bg-gray-700 hover:bg-gray-600 flex items-center justify-center transition duration-300">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#"
+                            class="w-8 h-8 rounded-full bg-gray-700 hover:bg-gray-600 flex items-center justify-center transition duration-300">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-white transition duration-300">Início</a>
+                        </li>
+                        <li><a href="#planos" class="text-gray-300 hover:text-white transition duration-300">Planos</a>
+                        </li>
+                        <li><a href="#cobertura"
+                                class="text-gray-300 hover:text-white transition duration-300">Cobertura</a></li>
+                        <li><a href="#sobre" class="text-gray-300 hover:text-white transition duration-300">Sobre
+                                Nós</a></li>
+                        <li><a href="#contato"
+                                class="text-gray-300 hover:text-white transition duration-300">Contato</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Política de
+                                Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contato</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2 text-green-400"></i>
+                            <span>R. Antonino Freire, 329 - Centro, Campo Maior - PI, 64280-000</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-2 text-green-400"></i>
+                            <span>+55 86 98160-4402</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-2 text-green-400"></i>
+                            <span>contato@carnaubanet.com.br</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-clock mt-1 mr-2 text-green-400"></i>
+                            <div>
+                                <p>Segunda a sexta: 08:00-12:00, 14:00-17:00</p>
+                                <p>Sábado: 08:00-12:00</p>
+                                <p>Domingo: Fechado</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
+                    <p class="text-gray-300 mb-4">Assine nossa newsletter para receber novidades e promoções.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Seu e-mail"
+                            class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-800 w-full">
+                        <button type="submit"
+                            class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-r-lg transition duration-300">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <p class="text-xs text-gray-400 mt-2">Não compartilharemos seu e-mail com terceiros.</p>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 CarnaúbaNet. Todos os direitos reservados.</p>
+                <p class="mt-2 text-sm">Desenvolvido com ❤️ para Campo Maior</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top"
+        class="fixed bottom-8 right-8 bg-green-500 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition duration-300 opacity-0 invisible">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5586981604402" target="_blank"
+        class="fixed bottom-8 left-8 bg-green-500 text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition duration-300 hover:bg-green-600">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
